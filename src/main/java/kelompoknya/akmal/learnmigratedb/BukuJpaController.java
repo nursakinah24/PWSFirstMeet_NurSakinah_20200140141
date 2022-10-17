@@ -25,7 +25,7 @@ public class BukuJpaController implements Serializable {
     public BukuJpaController(EntityManagerFactory emf) {
         this.emf = emf;
     }
-    private EntityManagerFactory emf = Persistence.createEntityManagerFactory("kelompoknya.akmal_learnmigratedb_jar_0.0.1-SNAPSHOTPU");;
+    private EntityManagerFactory emf = Persistence.createEntityManagerFactory("kelompoknya.akmal_learnmigratedb_jar_0.0.1-SNAPSHOTPU");
 
     public EntityManager getEntityManager() {
         return emf.createEntityManager();
